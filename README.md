@@ -2,10 +2,10 @@
 
 ## Introduction
 
-This package was created as part of an eScience Center course on using R 
-reproducibly. The contained functions are for demonstration purposes and offer
-little practical value. (sorry if your search engine sent you here on false
-promises!)
+This package was created as part of an eScience Center "Reproducible Research with R Packages". 
+The contained functions are for demonstration purposes and offer little practical value. (sorry 
+if your search engine sent you here on false promises!). In this they differ fundamentally 
+from the course itself, which was very useful and enjoyable. 
 
 ## Installation
 
