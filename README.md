@@ -22,7 +22,7 @@ The package has two functions, which require a CSV file with point data, then
 calculate OPTICS clusters, extract DBSCAN or Xi cluster IDs respectively, add 
 the cluster ID to the data frame, and return it. 
 
-Further parameters are the two column numbers that contain the coordinates and 
+Further parameters are the two column numbers that contain the coordinates, and 
 clustering parameters (see dbscan R package for details). 
 
 Example: 
