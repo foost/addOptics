@@ -31,8 +31,11 @@ Example:
 filepath <- system.file("extdata", "addOpticsExample.csv", package = "addOptics")
 opticsClusters <- OpticsXtractDBSCAN(filepath, 4, 5, 0.005, 5, 0.004)
 ```
-
+ Vignettes available
+ 
+``` 
 browseVignettes("addOptics") 
+```
 
 ## License
 
