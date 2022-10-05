@@ -15,7 +15,8 @@ Suggests:
 Config/testthat/edition: 3
 RoxygenNote: 7.2.1
 Imports: 
-    dbscan
+    dbscan, 
+    plyr
 Depends: 
     R (>= 2.10)
 VignetteBuilder: knitr
