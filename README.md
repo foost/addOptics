@@ -9,7 +9,12 @@ promises!)
 
 ## Installation
 
-Install from Github. Requires R package "dbscan". Contains an example data file. 
+Install from Github. 
+```
+devtools::install_github("foost/addOptics")
+````
+
+Requires R package "dbscan". Contains an example data file. 
 
 ## Usage
 
@@ -26,6 +31,8 @@ Example:
 filepath <- system.file("extdata", "addOpticsExample.csv", package = "addOptics")
 opticsClusters <- OpticsXtractDBSCAN(filepath, 4, 5, 0.005, 5, 0.004)
 ```
+
+browseVignettes("addOptics") 
 
 ## License
 
