@@ -1,0 +1,21 @@
+Package: addOptics
+Type: Package
+Title: Adds OPTICS Clusters To Dataframe
+Version: 0.1.0
+Author: Frank Ostermann <f.o.ostermann@utwente.nl>
+Maintainer: Frank Ostermann <f.o.ostermann@utwente.nl>
+Description: Requires a CSV file with coords for DBSCAN or Xi OPTICs extraction
+License: Apache License (>= 2)
+Encoding: UTF-8
+LazyData: true
+Suggests: 
+    knitr,
+    rmarkdown,
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+RoxygenNote: 7.2.1
+Imports: 
+    dbscan
+Depends: 
+    R (>= 2.10)
+VignetteBuilder: knitr
