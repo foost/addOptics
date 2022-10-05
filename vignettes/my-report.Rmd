@@ -1,0 +1,40 @@
+---
+title: "my-report"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{my-report}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(addOptics)
+```
+
+This vignette shows a short example for the addOptics package. 
+
+NB: the addOptics package is just a demonstration package developed during a 
+workshop! It does not provide any particularly useful functionality!
+
+The library takes a CSV file with coordinates, calculates Optics clusters, and
+returns either DBSCAN or Xi extracted cluster id for each feature. 
+
+The example below use the provided example data (use ?exampledata for 
+description, it contains the same data as the external CSV)
+
+```{r}
+filepath <- system.file("extdata", "addOpticsExample.csv", package = "addOptics")
+opticsXi <- OpticsXtractXi(filepath, 4, 5, 0.0006, 5, 0.0004)
+```
+
+```{r}
+filepath <- system.file("extdata", "addOpticsExample.csv", package = "addOptics")
+opticsDBSCAN <- OpticsXtractDBSCAN(filepath, 4, 5, 0.0006, 5, 0.0004)
+```
