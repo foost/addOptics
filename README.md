@@ -14,7 +14,7 @@ Install from Github.
 devtools::install_github("foost/addOptics")
 ````
 
-Requires R package "dbscan". Contains an example data file. 
+Requires R packages "dbscan" and "plyr". Contains an example data file. 
 
 ## Usage
 
